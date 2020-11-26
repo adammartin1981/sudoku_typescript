@@ -3,10 +3,8 @@ import { shuffleArray } from './'
 describe('shuffle', () => {
   it('returns an array with the same length after shuffled', () => {
     const array = [1, 2, 3]
-    console.log(array)
-    shuffleArray(array)
 
-    console.log('NEW', array)
+    shuffleArray(array)
 
     expect(array).toHaveLength(3)
   })

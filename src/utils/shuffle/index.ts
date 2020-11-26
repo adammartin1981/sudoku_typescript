@@ -8,5 +8,3 @@ export function shuffleArray(array: any[]) {
     ;[array[i], array[j]] = [array[j], array[i]]
   }
 }
-
-// export default shuffleArray
